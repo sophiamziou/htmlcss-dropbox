@@ -135,6 +135,11 @@ h1{
     margin: 20px auto;
 }
 
+.radiobtn{
+    display: flex;
+    flex-direction: row;
+}
+
 .w100{
     width: 100%;
 }
