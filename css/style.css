@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 .row{
@@ -28,6 +29,14 @@
     color: rgb(151, 151, 151);
 }
 
+.f12{
+    font-size: 12px;
+}
+
+#icon{
+    font-size: 12px;
+    padding: 2px;
+}
 /* start of header */
 
 .row-header{
@@ -164,12 +173,13 @@ label{
 }
 
 .intro{
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .price{
     font-size: 12px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .content-plan{
@@ -179,6 +189,7 @@ label{
 
 .content-plan ul li{
     list-style-type: none;
+    margin-bottom: 15px;
 }
 
 .plan4{
