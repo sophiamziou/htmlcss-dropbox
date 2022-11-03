@@ -197,6 +197,19 @@ label{
     margin-right: 5px;
 }
 
+#prova{
+    margin: 20px 0;
+}
+
+hr{
+    margin: 20px 0;
+    width: 20%;
+}
+
+h4{
+    margin: 20px 0;
+}
+
 .plan4{
     width: 67%;
     height: 100px;
