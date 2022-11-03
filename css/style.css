@@ -24,6 +24,10 @@
     margin-bottom: 20px;
 }
 
+.grey{
+    color: rgb(151, 151, 151);
+}
+
 /* start of header */
 
 .row-header{
@@ -49,7 +53,7 @@
     justify-content: space-evenly;
 }
 
-li{
+.col-header ul li{
     list-style-type: none;
     margin: 5px 15px;
     color: rgba(108,108,108,255);
@@ -67,7 +71,6 @@ button{
 
 /* jumbotron */
 .container{
-    min-width: 100%;
     padding-top: 60px;
 }
 
@@ -116,21 +119,16 @@ h1{
 /* 3 plans */
 
 .space{
+    width: 55%;
     display: flex;
     justify-content: space-evenly;
     margin: 20px auto;
 }
 
-.col-radiobtn{
+.row-btn{
     width: 55%;
     margin: 20px auto;
-}
 
-.plan4{
-    width: 67%;
-    height: 100px;
-    background-color: aqua;
-    margin: 20px auto;
 }
 
 .radio-btn{
@@ -165,9 +163,29 @@ label{
     text-align: center;
 }
 
+.intro{
+    line-height: 35px;
+}
+
+.price{
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .content-plan{
     border: 1px solid rgb(201, 201, 201);
     padding: 10px;
+}
+
+.content-plan ul li{
+    list-style-type: none;
+}
+
+.plan4{
+    width: 67%;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px auto;
 }
 
 /* partners squares */
