@@ -132,20 +132,21 @@ h1{
 
 /* 3 plans */
 
-.col-25{
-    width: 25%;
-    height: 100%;
+.col-plans{
+    width: 28%;
 }
 
-.space{
-    width: 55%;
+.row-plans{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
 }
 
 .row-btn{
+    box-sizing: border-box;
     width: 100%;
+    height: 100%;
 }
 
 .radio-btn{
@@ -192,7 +193,7 @@ label{
 
 .content-plan{
     border: 1px solid rgb(201, 201, 201);
-    padding: 10px;
+    padding: 20px;
 }
 
 .content-plan ul li{
@@ -207,7 +208,9 @@ label{
 }
 
 #prova{
+    width: 100%;
     margin: 20px 0;
+
 }
 
 hr{
@@ -219,11 +222,22 @@ h4{
     margin: 20px 0;
 }
 
-.plan4{
-    width: 67%;
-    height: 100px;
-    background-color: aqua;
+.fa-check{
+    color: rgb(0,97,255);
+}
+
+/* plan 4 */
+.row-p4{
     margin: 20px auto;
+}
+
+.col-p4 .content-plan{
+    position: relative;
+}
+.p4-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
 }
 
 /* partners squares */
