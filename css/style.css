@@ -6,14 +6,14 @@
 }
 
 .row{
-    width: 70%;
+    width: 65%;
     margin: 0 auto; 
     display: flex;
     justify-content: center;
 }
 
 .bgcolor-blue{
-    background-color: blue;
+    background-color: rgba(180,208,231,255);
 }
  
 .h100{
@@ -68,9 +68,13 @@ button{
 
 .col-title{
     width: 100%;
-    height: 80px;
-    background-color: red;
 }
+
+h1{
+    font-size: 60px;
+    margin: 20px;
+}
+
 
 .col-30{
     height: 200px;
@@ -83,6 +87,7 @@ button{
     height: 200px;
     background-color: burlywood;
 }
+
 
 /* 3 plans */
 
