@@ -115,3 +115,23 @@ p{
     height: 100%;
     width: calc(100% / 2);
 }
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background-color: black;
+}
+.row-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sm-col{
+    width: 17%;
+    height: 200px;
+    background-color: lightseagreen;
+    margin: 10px;
+    border: 1px white dashed;
+}
