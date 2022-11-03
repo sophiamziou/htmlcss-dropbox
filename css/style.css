@@ -36,6 +36,15 @@
 span{
     text-align: left;
 }
+
+.padding60px{
+    padding-top: 60px;
+}
+
+.container{
+    width: 50%;
+    margin: 20px auto;
+}
 /* start of header */
 
 .row-header{
@@ -78,9 +87,6 @@ button{
 /*START OF MAIN*/
 
 /* jumbotron */
-.container{
-    padding-top: 60px;
-}
 
 .col-title{
     width: 100%;
@@ -126,17 +132,20 @@ h1{
 
 /* 3 plans */
 
+.col-25{
+    width: 25%;
+    height: 100%;
+}
+
 .space{
     width: 55%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 20px auto;
 }
 
 .row-btn{
-    width: 55%;
-    margin: 20px auto;
-
+    width: 100%;
 }
 
 .radio-btn{
