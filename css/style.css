@@ -68,7 +68,7 @@ button{
 /* jumbotron */
 .container{
     min-width: 100%;
-    padding: 10px;
+    padding-top: 60px;
 }
 
 .col-title{
@@ -122,9 +122,7 @@ h1{
 }
 
 .col-radiobtn{
-    width: 70%;
-    height: 100px;
-    background-color: red;
+    width: 55%;
     margin: 20px auto;
 }
 
@@ -135,13 +133,30 @@ h1{
     margin: 20px auto;
 }
 
-.radiobtn{
+.radio-btn{
     display: flex;
     flex-direction: row;
+    line-height: 20px;
+}
+
+h2{
+    margin: 40px auto;
+    font-size: 30px;
 }
 
 .w100{
     width: 100%;
+}
+
+input{
+    margin-right: 5px;
+}
+
+label{
+    font-size: 12px;
+    vertical-align: middle;
+    margin-right: 40px;
+    color: rgb(110, 108, 108);
 }
 
 /* partners squares */
