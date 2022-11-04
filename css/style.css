@@ -291,25 +291,36 @@ h4{
 
 }
 
-/* partners squares */
+/* TEAM squares */
+
+section{
+    width: 100%;
+}
+
+.rowteams{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
 .colsquare{
     width: calc(100% / 3);
-    height: 200px;
-    background-color: blueviolet;
     margin: 20px 0;
 }
 
 .rowsquare{
     display: flex;
     flex-direction: row;
-    height: calc(100% / 2);
     width: 100%;
-    background-color: brown;
 }
 
 .smsquare{
-    height: 100%;
     width: calc(100% / 2);
+}
+
+.smsquare img{
+    width: 100%;
 }
 
 /* footer */
