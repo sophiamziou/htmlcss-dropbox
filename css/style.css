@@ -402,6 +402,7 @@ section{
 }
 
 .text-faq{
+    color: rgb(91, 91, 91);
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
