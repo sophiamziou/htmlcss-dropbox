@@ -162,7 +162,7 @@ h1{
 /* 3 plans */
 
 .col-plans{
-    width: 28%;
+    width: 30%;
 }
 
 .row-plans{
@@ -334,6 +334,14 @@ section{
 .colsquare{
     width: calc(100% / 3);
     height: calc(100vw / 3);
+}
+
+.midsquare{
+    padding: 30px;
+}
+
+.midsquare img{
+    width: 40%;
 }
 
 .rowsquare{
