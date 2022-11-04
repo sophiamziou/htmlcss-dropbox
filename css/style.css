@@ -268,6 +268,29 @@ h4{
     margin: 15px 0;
 }
 
+/* Dropbox operations */
+
+.row-op{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-op{
+    width: 30%;
+}
+
+.op-content h3{
+    margin: 15px 0;
+}
+
+.imgop{
+    object-fit: contain;
+    width: 100%;
+
+}
+
 /* partners squares */
 .colsquare{
     width: calc(100% / 3);
