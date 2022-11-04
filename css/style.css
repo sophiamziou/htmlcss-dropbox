@@ -38,35 +38,35 @@ span{
 }
 
 .bgc-green{
-    background-color: rgba(162,211,155,255);
+    background-color: rgb(162,211,155);
 }
 
 .bgc-brown{
-    background-color: rgba(97,8,43,255);
+    background-color: rgb(97,8,43);
 }
 
 .bgc-bluefl{
-    background-color: rgba(0,147,206,255);
+    background-color: rgb(0,147,206);
 }
 
 .bgc-orange{
-    background-color: rgba(255,28,28,255);
+    background-color: rgb(255,28,28);
 }
 
 .bgc-red{
-    background-color: rgba(213,0,31,255);
+    background-color: rgb(213,0,31);
 }
 
 .bgc-blue{
-    background-color: rgba(13,36,129,255);
+    background-color: rgb(13,36,129);
 }
 
 .bgc-lightblue{
-    background-color: rgba(180,208,231,255);
+    background-color: rgb(180,208,231);
 }
 
 .bgc-yellow{
-    background-color: rgba(255,216,48,255);
+    background-color: rgb(255,216,48);
 }
 
 /* FINE UTILITY */
@@ -99,13 +99,13 @@ span{
 .col-header ul li{
     list-style-type: none;
     margin: 5px 15px;
-    color: rgba(108,108,108,255);
+    color: rgb(108,108,108);
 }
 
 button{
     border-radius: 0%;
     border: none;
-    background-color: rgba(0,97,255,255);
+    background-color: rgb(0,97,255);
     color: white;
     padding: 5px 10px;
 }
@@ -155,7 +155,7 @@ h1{
     color: rgb(81, 80, 80);
 }
 
-.icon{
+#arrow{
     position: absolute;
     bottom: 10px;
     left: 0;
@@ -349,14 +349,15 @@ section{
 }
 
 .smsquare{
+    display: flex;
+    justify-content: center;
     width: calc(100% / 2);
     height: 100%;
 }
 
 .smsquare img{
     filter: invert(1);
-    width: 90%;
-    padding: 30px 20px;
+    width: 50%;
 }
 
 /* footer */
