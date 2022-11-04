@@ -366,15 +366,40 @@ section{
     background-color: black;
 }
 .row-footer{
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footer-info{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 .sm-col{
     width: 20%;
-    height: 200px;
-    background-color: lightseagreen;
-    margin: 10px;
-    border: 1px white dashed;
+    color: white;
+    margin: 10px 0;
+}
+
+.sm-col h5{
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.sm-col ul li{
+    font-size: 10px;
+    list-style-type: none;
+    padding: 7px 0;
+}
+
+.row-footer hr{
+    size: 10;
+    width: 10%;
+}
+
+.row-footer p{
+    color: white;
+    padding: 20px 0;
 }
